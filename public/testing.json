@@ -1,0 +1,25 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.hala.instantapps",
+    "sha256_cert_fingerprints":
+    ["33:20:73:44:01:C0:35:A9:58:58:6B:A9:39:D5:04:DD:81:91:24:02:BC:67:17:1C:ED:C0:86:B7:88:9E:BB:1E"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "web",
+    "site": "https://www.headlinesmobile.com"
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.hala.instantapps",
+    "sha256_cert_fingerprints":
+    ["33:20:73:44:01:C0:35:A9:58:58:6B:A9:39:D5:04:DD:81:91:24:02:BC:67:17:1C:ED:C0:86:B7:88:9E:BB:1E"]
+  }
+}]
